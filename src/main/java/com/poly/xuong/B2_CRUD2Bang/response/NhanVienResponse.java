@@ -17,7 +17,8 @@ import org.hibernate.Hibernate;
 @Builder
 public class NhanVienResponse {
     // LIET KE TAT CA CAC TRUONG CAN THIET
-    private Integer nhanVienID;
+    private Integer id;
+    private String ma;
 
     private String ho;
 
@@ -27,16 +28,20 @@ public class NhanVienResponse {
 
     private String diaChi;
 
+    private String gioiTinh;
+
     private Integer chucVuID;
 
     private String tenChucVu;
 
     // convert nhanh tu NhanVien -> NhanVienResponse
     public NhanVienResponse(NhanVien nv) {
-        this.nhanVienID = nv.getId();
+        this.id = nv.getId();
+        this.ma = nv.getMa();
         this.ho = nv.getHo();
         this.ten = nv.getTen();
         this.tenDem = nv.getTenDem();
+        this.gioiTinh = nv.getGioiTinh();
         this.diaChi = nv.getDiaChi();
         // Phai check la Khoa ngoai co gia hay hoac khong
         if (nv.getCv() != null) {

@@ -33,7 +33,7 @@ public class ChiTietSanPhamRepository {
 
     public List<ChiTietSP> phanTrangHQl(int pageNo, int pageSize) {
         String hql = "SELECT ctsp FROM ChiTietSP ctsp ORDER BY ctsp.id";
-        Query query = s.createQuery(hql);
+        Query query = s.createQuery("FROM ChiTietSP");
         // set value
         query.setFirstResult((pageNo - 1) * pageSize); // Tuong ung offset
         query.setMaxResults(pageSize); // Tuong ung fetch next - pagesize

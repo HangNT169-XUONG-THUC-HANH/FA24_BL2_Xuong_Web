@@ -21,7 +21,7 @@
     <br/>
     Ten: <input type="text" name="ten" value="${nv.ten}"/>
     <br/>
-<%--    SDT: <input type="text" name="sdt" value="${nv.sdt}"/>--%>
+    <%--    SDT: <input type="text" name="sdt" value="${nv.sdt}"/>--%>
     <br/>
     Dia chi: <input type="text" name="diaChi" value="${nv.diaChi}"/>
     <br/>

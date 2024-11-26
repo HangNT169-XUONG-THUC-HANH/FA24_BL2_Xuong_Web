@@ -3,5 +3,7 @@
   <component name="JpaBuddyIdeaProjectConfig">
     <option name="defaultUnitInitialized" value="true" />
     <option name="renamerInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="d312e87e-32ef-4914-b08a-6fb2cccb7014__XUONG_LEVEL1_WEB_dbo" />
+    <option name="reLastEntityCreationPackage" value="src/main/java/com/poly/xuong/B5_PhanTrangSearch/entity" />
   </component>
 </project>

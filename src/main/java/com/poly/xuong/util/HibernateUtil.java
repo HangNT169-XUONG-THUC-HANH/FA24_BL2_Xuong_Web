@@ -3,6 +3,11 @@ package com.poly.xuong.util;
 import com.poly.xuong.B1_CRUD1Bang.entity.KhachHang;
 import com.poly.xuong.B2_CRUD2Bang.entity.ChucVu;
 import com.poly.xuong.B2_CRUD2Bang.entity.NhanVien;
+import com.poly.xuong.B5_PhanTrangSearch.entity.ChiTietSP;
+import com.poly.xuong.B5_PhanTrangSearch.entity.DongSP;
+import com.poly.xuong.B5_PhanTrangSearch.entity.MauSac;
+import com.poly.xuong.B5_PhanTrangSearch.entity.Nsx;
+import com.poly.xuong.B5_PhanTrangSearch.entity.SanPham;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
@@ -30,6 +35,11 @@ public class HibernateUtil {
                 KhachHang.class,
                 ChucVu.class,
                 NhanVien.class,
+                ChiTietSP.class,
+                SanPham.class,
+                MauSac.class,
+                DongSP.class,
+                Nsx.class
         };
 
         // Thêm tất cả các lớp trong mảng vào Configuration

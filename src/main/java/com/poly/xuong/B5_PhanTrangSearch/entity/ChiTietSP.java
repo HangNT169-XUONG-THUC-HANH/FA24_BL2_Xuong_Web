@@ -16,8 +16,6 @@ import lombok.Setter;
 import lombok.ToString;
 import org.hibernate.annotations.Nationalized;
 
-import java.math.BigDecimal;
-
 @Getter
 @Setter
 @Entity

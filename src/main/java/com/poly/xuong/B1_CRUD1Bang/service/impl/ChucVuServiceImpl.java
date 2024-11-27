@@ -6,7 +6,7 @@ import com.poly.xuong.B1_CRUD1Bang.service.ICommonService;
 
 import java.util.List;
 
-public class ChucVuServiceImpl implements ICommonService<ChucVu1>, ChucVuService {
+public class ChucVuServiceImpl implements ICommonService<ChucVu1,Integer>, ChucVuService {
     @Override
     public void sort() {
 

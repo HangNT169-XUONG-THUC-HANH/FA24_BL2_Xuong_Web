@@ -5,7 +5,9 @@
     <title>Title</title>
 </head>
 <body>
-
+<%--Spring security
+WebFilter--%>
+<p>Xin chao ${sessionScope.taiKhoan.username}</p>
 <form action="/nhan-vien/add" method="post">
     Ma: <input type="text" name="ma"/>
     <br/>

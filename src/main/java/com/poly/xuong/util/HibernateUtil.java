@@ -8,6 +8,7 @@ import com.poly.xuong.B5_PhanTrangSearch.entity.DongSP;
 import com.poly.xuong.B5_PhanTrangSearch.entity.MauSac;
 import com.poly.xuong.B5_PhanTrangSearch.entity.Nsx;
 import com.poly.xuong.B5_PhanTrangSearch.entity.SanPham;
+import com.poly.xuong.B6_Filter.entity.TaiKhoan;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
@@ -39,7 +40,8 @@ public class HibernateUtil {
                 SanPham.class,
                 MauSac.class,
                 DongSP.class,
-                Nsx.class
+                Nsx.class,
+                TaiKhoan.class
         };
 
         // Thêm tất cả các lớp trong mảng vào Configuration
